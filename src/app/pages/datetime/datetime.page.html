@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    
+    
+    <ion-buttons slot="start" >
+      <ion-back-button
+      defaultHref="/" text="Regresar"
+      color="primary"
+      mode="ios"></ion-back-button>
+    </ion-buttons>
+  
+    <ion-title>Datetime</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+
+  <! Se selecciono el componente "First Day of the Week" en https://ionicframework.com/docs/api/datetime
+-->
+
+<ion-datetime [firstDayOfWeek]="1"></ion-datetime>
+
+</ion-content>
